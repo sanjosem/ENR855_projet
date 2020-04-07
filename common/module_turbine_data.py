@@ -614,6 +614,7 @@ class CollineModeleClass:
         volume_trou = VS * (Bief_aval-z0)
         
         return hs, z0, volume_trou
+        
 
     def allievi_method_normal(self,Tstop,H_0,gamma_0,n_rpm_sync,D,d_eta_maj_pm,L_duct,A_duct,rho,
                               csound,g,method='SLSQP',tol=1.0e-6):
